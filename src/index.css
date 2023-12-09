@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family:'nunito' ;
+  font-style: normal;
+  font-weight: 500;
+  src: local('nunito'),local('Nunito-Regular'),url(./assets/Nunito-Regular.ttf)format('truetype');
+}
+@font-face {
+  font-family:'nunitobold' ;
+  font-style: normal;
+  font-weight: 500;
+  src: local('nunitobold'),local('Nunito-Bold'),url(./assets/Nunito-Bold.ttf)format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  /* background-color: #f1f1f1; */
+  transition:0.2s ease;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height: 100%;
+  background-image: linear-gradient(125deg,#f368fc  , lavender,#68fce9,#b0eeed,#68fc88);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+button,a{
+  cursor:pointer;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #2AFFE2;
+}
+
+/*  font-family: 'nunito', sans-serif; */
+/*  font-family: 'nunitobold', sans-serif; */

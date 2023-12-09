@@ -1,0 +1,9 @@
+
+
+@media (min-width:760px) {
+.seller-panel-container { 
+  width: 80%; 
+  margin-left: 20%;
+  background-color: white;
+ }
+}
